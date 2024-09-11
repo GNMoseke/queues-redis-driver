@@ -16,9 +16,9 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/vapor/vapor.git", from: "4.76.3"),
-        .package(url: "https://github.com/vapor/queues.git", from: "1.12.1"),
-        .package(url: "https://github.com/vapor/redis.git", from: "4.8.0"),
+        .package(url: "https://github.com/vapor/vapor.git", from: "4.105.0"),
+        .package(url: "https://github.com/vapor/queues.git", from: "1.15.0"),
+        .package(url: "https://github.com/vapor/redis.git", from: "4.11.0"),
     ],
     targets: [
         .target(
